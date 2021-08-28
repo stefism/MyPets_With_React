@@ -1,70 +1,19 @@
-# Getting Started with Create React App
+## :eyeglasses: Project Introduction
+*My Pets** is a pet site developed with the **React Library** and **JavaScript**.
+The project has been deployed in **Firebase** and you may seen how it work in [This Link](https://mypetsdemo-d2edb.web.app "This Link").
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## :pencil2: Overview
+The site allows users, after registration, to upload the name, description and photos of their pets, as the photos are not uploaded directly to the site, but are provided via a link. The user also has the ability to vote for pets, can also edit and delete the pets he has uploaded.
+The **authentication** and the **database** are realized through the services of **Firebase**.
+![](https://i.ibb.co/0CPPWw1/auth.jpg)
+![](https://i.ibb.co/ZhR5wxP/firestore.jpg)
 
-## Available Scripts
-
-In the project directory, you can run:
-
-### `yarn start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
-
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
-
-### `yarn test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `yarn build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `yarn eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## :hammer: Built With
+- [ReactJS](https://reactjs.org "ReactJS").
+- Google [Firebase](https://firebase.google.com "Firebase").
+- Firebase Authentication service for Authentication system.
+- Firebase Firestore service for database administration.
+- [Fontawesome](https://fontawesome.com "Fontawesome").
+- [React Bootstrap](https://react-bootstrap.github.io "React Bootstrap").
+- [Mock Service Worker](https://mswjs.io "Mock Service Worker") (MSW) mocking library.
+- [React Testing Library](https://testing-library.com/docs/react-testing-library/intro/ "React Testing Library") for Unit Tests.
